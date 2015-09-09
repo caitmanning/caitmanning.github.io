@@ -1,0 +1,49 @@
+body{
+	background-color:#FFFFFF;
+	text-align:center;
+}
+h1{
+	color:#C7C7C7;
+	font-family:Arial;
+	font-size:20px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:center;
+}
+.image{
+	width:100%;
+}
+#slogan{
+	color:#8A8A8A;
+	font-family:Arial;
+	font-size:20px;
+	font-style:italic;
+	font-weight:normal;
+	text-align:center;
+}
+p{
+	color:#8A8A8A;
+	font-family:Arial;
+	font-size:14px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:center;	
+}
+ul{
+	color:#8A8A8A;
+	list-style: none;
+	font-family:Arial;
+	font-size:14px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:center;
+}
+a{
+	text-decoration: none;
+	color:#72C7C7;
+	font-family:Arial;
+	font-size:14px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:center;
+}
