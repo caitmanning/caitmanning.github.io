@@ -8,31 +8,57 @@ body{
 	font-weight:normal;
 	text-align:center;
 }
-h1{
-	color:#C7C7C7;
-	font-family:Arial, helvetica, sans-serif;
-	font-size:2em;
-	font-style:normal;
-	font-weight:normal;
+p{
+	padding:1.25em .5em .5em .5em;
+	font-size:19px;'
 }
-ul{
+li{
 	list-style-type: none;
+	display:inline-block;
+	list-style: none;
+	padding:0 .25em 0 .25em;
 }
 a{
 	text-decoration: none;
 	color:#72C7C7;
+	display:inline-block;
+	list-style: none;
 }
 #splash {
 	background-image: url(images/aimlesslywandering.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
-	height:50vh;
-}
-.image{
 	width:100%;
+}
+.logo{
+	width:100%;
+	padding: 2em 0 5em 0;
 }
 #slogan{
 	font-family: 'Nixie One', cursive;
 	font-size:2em;
 	line-height:1.25em;
+	padding:1em 1em .25em 1em;
 }
+#nav{
+	text-decoration: none;
+	color:#72C7C7;
+	display:inline-block;
+	list-style-type: none;
+	list-style: none;
+}
+#rome{
+	width: 900px;
+	height:625px;
+	margin:0;
+	text-align: left;
+	float:left;
+}
+#aboutme{
+	width:200px;
+	height:400px;
+	float: right;
+	background-color: blue;
+	margin:0;
+}
+
