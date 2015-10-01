@@ -21,11 +21,19 @@ h2{
 	padding-top:8px;
 	color:#708090;
 }
+h3{
+	font-family:Raleway;
+	font-size: 22px;
+	font-weight:400;
+	text-align:center;
+	padding-top:8px;
+	color:#708090;
+}
 p{
 	font-family:Scheherazade;
 	text-align:left;	
-	line-height: 20px;
-	font-size: 18px;
+	line-height: 23px;
+	font-size: 20px;
 	padding-top:16px;
 	color:#708090;
 
@@ -42,20 +50,24 @@ li{
 a{
 	font-family:Raleway;
 	text-decoration: none;
-	color:#5F9EA0;
+	color:#006B8F;
 	display:inline-block;
 	list-style: none;
 }
+a:hover{
+	color:black;
+}
 .logo{
+	margin-top: 10px;
 	max-width:50%;
 }
 .birthday{
 	text-align: center;
 	background-color: white;
 	padding: 2em;
-	height:40vh;
+	height:45vh;
 	margin:2% 20% 0 20%;
-	padding:20px 10px 40px 20px;
+	padding:40px 10px 40px 20px;
 
 }
 .libra{
@@ -76,16 +88,22 @@ section{
 	margin:0 20% 0 19%;
 }
 .lipstick{
+	background-color:white;
 	float:left;
 	max-width:46%;
+	padding:25px 0 25px 0;
 	margin:2% 2% 25px 2%;
 }
 .brush{
+	background-color:white;
 	max-width:46%;
 	float:right;
+	padding:25px 0 25px 0;
 	margin:2% 1% 25px 2%;
 }
+
 #icons{
 	width:190px;
 	text-align:center;
+	margin-bottom: 10px;
 }
