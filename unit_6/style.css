@@ -1,0 +1,90 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+	background-color:#ececec;
+	font-size:16px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:center;
+}
+h1{
+	font-family:Raleway;
+	font-weight:400;
+	text-align:left;
+	color:#708090;
+	margin-top: 15%;
+}
+h2{
+	font-family:Raleway;
+	font-size: 16px;
+	font-weight:400;
+	text-align:left;
+	padding-top:8px;
+	color:#708090;
+}
+p{
+	font-family:Scheherazade;
+	text-align:left;	
+	line-height: 20px;
+	font-size: 18px;
+	padding-top:16px;
+	color:#708090;
+
+}
+li{
+	font-family:Raleway;
+	font-size: 15px;
+	list-style-type: none;
+	display:inline-block;
+	list-style: none;
+	padding:0 .4em 0 .4em;
+	margin:20px 0 5px 0;
+}
+a{
+	font-family:Raleway;
+	text-decoration: none;
+	color:#5F9EA0;
+	display:inline-block;
+	list-style: none;
+}
+.logo{
+	max-width:50%;
+}
+.birthday{
+	text-align: center;
+	background-color: white;
+	padding: 2em;
+	height:40vh;
+	margin:2% 20% 0 20%;
+	padding:20px 10px 40px 20px;
+
+}
+.libra{
+	width:40%;
+	float:right;
+	margin-left: 40px;
+}
+#nav{
+	text-decoration: none;
+	color:#72C7C7;
+	display:inline-block;
+	list-style-type: none;
+	list-style: none;
+}
+section{
+	font-size: 20px;
+	margin:0 20% 0 19%;
+}
+.lipstick{
+	float:left;
+	max-width:46%;
+	margin:2% 2% 25px 2%;
+}
+.brush{
+	max-width:46%;
+	float:right;
+	margin:2% 1% 25px 2%;
+}
+#icons{
+	width:190px;
+	text-align:center;
+}
