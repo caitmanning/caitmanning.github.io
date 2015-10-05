@@ -8,9 +8,16 @@ body{
 	font-weight:normal;
 	text-align:center;
 }
+h2{
+	font-family: 'Nixie One', cursive;
+	font-size:25px;
+	line-height:1.25em;
+	text-align: left;
+	padding:.25em .25em 0 .5em;
+}
 p{
-	padding:1.25em .5em .5em .5em;
-	font-size:19px;
+	padding:.5em .5em 1.5em .5em;
+	font-size:16px;
 	text-align: left;
 }
 li{
@@ -30,17 +37,18 @@ a{
 	background-size:cover;
 	background-repeat:no-repeat;
 	width:100%;
-	min-height:50vh;
+	height:50vh;
 }
 .logo{
-	width:65vh;
-	padding: 2em 0 5em 0;
+	max-width:50%;
+	padding: 5em 0 5em 0;
 }
 #slogan{
 	font-family: 'Nixie One', cursive;
 	font-size:2em;
 	line-height:1.25em;
 	padding:1em 1em .25em 1em;
+	text-align: center;
 }
 #nav{
 	text-decoration: none;
@@ -50,19 +58,18 @@ a{
 	list-style: none;
 }
 #wrapper{
-	width:90%;
-	margin:auto;
+	max-width:50%;
+	margin:35px 3% 2em 15%;
+	float-left:left;
+	background-color: green;
 }
-#rome{
-	width: 900px;
-	margin:2em 6em 2em 2em;
+#posts{
 	float:left;
 }
-#aboutme{
-	width:260px;
+aside{
+	max-width:15%;
 	float: left;
-	margin:2em 0;
-	text-align:center;
+	margin:35px 15% 2em 3%;
 }
 
 
