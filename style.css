@@ -30,7 +30,7 @@ li{
 }
 a{
 	text-decoration: none;
-	color:#72C7C7;
+	color:#51979F;
 	display:inline-block;
 	list-style: none;
 }
@@ -39,11 +39,11 @@ a{
 	background-size:cover;
 	background-repeat:no-repeat;
 	width:100%;
-	height:50vh;
+	height:70vh;
 }
 .logo{
-	max-width:50%;
-	margin: 8% 0 40% 0;
+	width:45%;
+	margin: 10% 0 20% 0;
 }
 #slogan{
 	font-family: 'Nixie One', cursive;
@@ -55,26 +55,30 @@ a{
 }
 #nav{
 	text-decoration: none;
-	color:#72C7C7;
+	color:#51979F;
 	display:inline-block;
 	list-style-type: none;
 	list-style: none;
 }
 #wrapper{
-	max-width:50%;
-	margin:2% auto;
-	float-left:left;
+	max-width:100%;
+	height:900px;
+	margin:2em auto;
 }
 #posts{
+	width:60%;
 	float:left;
 	background-color:#A4CFD4;
-	padding-top:5%;
+	margin:0 0 5% 8%;
+	padding-top:3%;
+	float:left;
 }
 aside{
-	max-width:20em;
-	float: left;
-	margin:2% auto;
+	min-width: 15em;
+	max-width:22%;
+	margin:2em 5% 0 2%;
 	color:#8A8A8A;
+	float:left;
 }
 
 
