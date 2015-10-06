@@ -1,30 +1,32 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body{
 	background-color:#FFFFFF;
-	color:#8A8A8A;
+	color:#E8E8E8;
 	font-family: 'Arapey', serif;
-	font-size:16px;
+	font-size:1em;
 	font-style:normal;
 	font-weight:normal;
 	text-align:center;
 }
 h2{
 	font-family: 'Nixie One', cursive;
-	font-size:25px;
+	color:#E8E8E8;
+	font-size:1.5em;
 	line-height:1.25em;
 	text-align: left;
-	padding:.25em .25em 0 .5em;
+	padding:.25em .5em 0 5%;
 }
 p{
-	padding:.5em .5em 1.5em .5em;
-	font-size:16px;
+	padding:.5em 5% 1.5em 5%;
+	font-size:1.15em;
 	text-align: left;
+	width:90%;
 }
 li{
 	list-style-type: none;
 	display:inline-block;
 	list-style: none;
-	padding:0 .25em 0 .25em;
+	padding:.25em 1em .25em 1em;
 }
 a{
 	text-decoration: none;
@@ -41,10 +43,11 @@ a{
 }
 .logo{
 	max-width:50%;
-	padding: 5em 0 5em 0;
+	margin: 8% 0 40% 0;
 }
 #slogan{
 	font-family: 'Nixie One', cursive;
+	color:#8A8A8A;
 	font-size:2em;
 	line-height:1.25em;
 	padding:1em 1em .25em 1em;
@@ -59,17 +62,19 @@ a{
 }
 #wrapper{
 	max-width:50%;
-	margin:35px 3% 2em 15%;
+	margin:2% auto;
 	float-left:left;
-	background-color: green;
 }
 #posts{
 	float:left;
+	background-color:#A4CFD4;
+	padding-top:5%;
 }
 aside{
-	max-width:15%;
+	max-width:20em;
 	float: left;
-	margin:35px 15% 2em 3%;
+	margin:2% auto;
+	color:#8A8A8A;
 }
 
 
