@@ -45,6 +45,15 @@ a{
 	width:45%;
 	margin: 3em 0 20% 0;
 }
+.clearfix:after{
+	height:0;
+	visibility: hidden;
+	font-size:0;
+	display:block;
+	content:' ';
+	clear:both;
+}
+
 #slogan{
 	font-family: 'Nixie One', cursive;
 	color:#8A8A8A;
@@ -66,7 +75,7 @@ a{
 }
 #posts{
     width: 55%;
-	margin:2em 2% 2em 10%;
+	margin:2em auto;
     min-width: 18em;
     background-color: #A4CFD4;
     padding-top: 1.5em;
@@ -80,21 +89,43 @@ aside{
     float: left;
     font-size: 14px;
 }
-@media (max-width : 768px) {
+
+@media screen and (max-width : 1000px) {
+aside{
+	float:none;
+	width:100%;
+	max-width:100%;
+	margin: 2em auto;
+}
+
+#bio img, #bio p{
+	width:50%;
+	float:left;
+
+}
+
+#posts{
+	float:none;
+	width:100%;
+}
+}
+
+
+@media screen and (max-width : 768px) {
   .nav {
     font-size: 1.2em;
   }
-  aside{
+/*  aside{
   	float: left;
   	margin:2em 8% 2em 2%;
   	min-width: 18em;
   	font-size:14px;
-  }
-  #posts{
+  }*/
+/*  #posts{
   	width: 45%;
   	float: left;
   	margin: 2em 2% 2em 8%;
-  }
+  }*/
   #splash{
   	width:100%;
   	height:30vh;
