@@ -63,23 +63,42 @@ a{
 #wrapper{
 	max-width:100%;
 	margin:0 auto;
-	height:100%;
 }
 #posts{
     width: 55%;
+	margin:2em 2% 2em 10%;
     min-width: 18em;
-    margin: 2.25em 0 5% 12%;
     background-color: #A4CFD4;
-    padding-top: 2%;
+    padding-top: 1.5em;
     float: left;
 }
 aside{
-	min-width: 18em;
-    padding:0;
+	margin:2em 10% 2em 2%;
     max-width: 20%;
-    margin: 2.25em 0 0 10%;
+  	min-width: 15em;
     color: #8A8A8A;
     float: left;
+    font-size: 14px;
+}
+@media (max-width : 768px) {
+  .nav {
+    font-size: 1.2em;
+  }
+  aside{
+  	float: left;
+  	margin:2em 8% 2em 2%;
+  	min-width: 18em;
+  	font-size:14px;
+  }
+  #posts{
+  	width: 45%;
+  	float: left;
+  	margin: 2em 2% 2em 8%;
+  }
+  #splash{
+  	width:100%;
+  	height:30vh;
+  }
 }
 
 
