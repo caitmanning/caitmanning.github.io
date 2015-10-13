@@ -93,25 +93,28 @@ aside{
 @media screen and (max-width : 1000px) {
 aside{
 	float:none;
-	width:100%;
-	max-width:100%;
+	width:90%;
+	max-width:75%;
 	margin: 2em auto;
 }
 
-#bio img, #bio p{
-	width:50%;
+#bio img{
+	width:30%;
 	float:left;
-
+}
+#bio p{
+	width:70%;
+	float:left;	
 }
 
 #posts{
 	float:none;
-	width:100%;
+	width:90%;
 }
 }
 
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 480px) {
   .nav {
     font-size: 1.2em;
   }
@@ -130,6 +133,15 @@ aside{
   	width:100%;
   	height:30vh;
   }
+ #bio img{
+	width:70%;
+	float:none;
+}
+#bio p{
+	width:100%;
+	float:none;	
+}
+
 }
 
 
