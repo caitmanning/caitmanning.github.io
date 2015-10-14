@@ -1,0 +1,147 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+	background-color:#FFFFFF;
+	color:#E8E8E8;
+	font-family: 'Arapey', serif;
+	font-size:1em;
+	font-style:normal;
+	font-weight:normal;
+	text-align:center;
+}
+h2{
+	font-family: 'Nixie One', cursive;
+	color:#E8E8E8;
+	font-size:1.5em;
+	line-height:1.25em;
+	text-align: left;
+	padding:.25em .5em 0 5%;
+}
+p{
+	padding:.5em 5% 1.5em 5%;
+	font-size:1.15em;
+	text-align: left;
+	width:90%;
+}
+li{
+	list-style-type: none;
+	display:inline-block;
+	list-style: none;
+	padding:.25em 1em .25em 1em;
+}
+a{
+	text-decoration: none;
+	color:#51979F;
+	display:inline-block;
+	list-style: none;
+}
+#splash {
+	background-image: url(images/aimlesslywandering.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	height:50vh;
+}
+.logo{
+	width:45%;
+	margin: 3em 0 20% 0;
+}
+.clearfix:after{
+	height:0;
+	visibility: hidden;
+	font-size:0;
+	display:block;
+	content:' ';
+	clear:both;
+}
+
+#slogan{
+	font-family: 'Nixie One', cursive;
+	color:#8A8A8A;
+	font-size:2em;
+	line-height:1.25em;
+	padding:1em 1em .25em 1em;
+	text-align: center;
+}
+#nav{
+	text-decoration: none;
+	color:#51979F;
+	display:inline-block;
+	list-style-type: none;
+	list-style: none;
+}
+#wrapper{
+	max-width:100%;
+	margin:0 auto;
+}
+#posts{
+    width: 55%;
+	margin:2em auto;
+    min-width: 18em;
+    background-color: #A4CFD4;
+    padding-top: 1.5em;
+    float: left;
+}
+aside{
+	margin:2em 10% 2em 2%;
+    max-width: 20%;
+  	min-width: 15em;
+    color: #8A8A8A;
+    float: left;
+    font-size: 14px;
+}
+
+@media screen and (max-width : 1000px) {
+aside{
+	float:none;
+	width:90%;
+	max-width:75%;
+	margin: 2em auto;
+}
+
+#bio img{
+	width:30%;
+	float:left;
+}
+#bio p{
+	width:70%;
+	float:left;	
+}
+
+#posts{
+	float:none;
+	width:90%;
+}
+}
+
+
+@media screen and (max-width : 480px) {
+  .nav {
+    font-size: 1.2em;
+  }
+/*  aside{
+  	float: left;
+  	margin:2em 8% 2em 2%;
+  	min-width: 18em;
+  	font-size:14px;
+  }*/
+/*  #posts{
+  	width: 45%;
+  	float: left;
+  	margin: 2em 2% 2em 8%;
+  }*/
+  #splash{
+  	width:100%;
+  	height:30vh;
+  }
+ #bio img{
+	width:70%;
+	float:none;
+}
+#bio p{
+	width:100%;
+	float:none;	
+}
+
+}
+
+
