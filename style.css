@@ -70,11 +70,13 @@ a{
 	list-style: none;
 }
 #wrapper{
-	max-width:100%;
+	max-width:90%;
 	margin:0 auto;
+	float:none;
 }
+
 #posts{
-    width: 55%;
+    width: 70%;
 	margin:2em auto;
     min-width: 18em;
     background-color: #A4CFD4;
@@ -82,20 +84,28 @@ a{
     float: left;
 }
 aside{
-	margin:2em 10% 2em 2%;
+	margin:2em 0 2em 5%;
     max-width: 20%;
   	min-width: 15em;
     color: #8A8A8A;
     float: left;
     font-size: 14px;
 }
+#ad{
+	width:85%;
+	float:none;
+}
 
 @media screen and (max-width : 1000px) {
 aside{
 	float:none;
-	width:90%;
+	width:100%;
 	max-width:75%;
 	margin: 2em auto;
+}
+
+#ad{
+	display:none;
 }
 
 #bio img{
