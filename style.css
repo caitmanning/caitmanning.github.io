@@ -92,8 +92,12 @@ aside{
     font-size: 14px;
 }
 #ad{
-	width:85%;
+	width:100%;
 	float:none;
+}
+footer{
+	color:#a6c0c5;
+	margin:15px 0;
 }
 
 @media screen and (max-width : 1000px) {
@@ -146,6 +150,9 @@ aside{
 #bio p{
 	width:100%;
 	float:none;	
+}
+#social{
+	padding:2px;
 }
 
 }
