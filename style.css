@@ -41,9 +41,9 @@ a{
 	width:100%;
 	height:50vh;
 }
-.logo{
-	width:45%;
-	margin: 3em 0 20% 0;
+#logo{
+	width:80%;
+	margin: 4em 0 20% 0;
 }
 .clearfix:after{
 	height:0;
@@ -165,8 +165,8 @@ aside{
 	width:100%;
 	font-size: 1.2em;
 }
-#italy img{
-	padding:5px;
+#italy #minis{
+	width:45%;
 }
 }
 
@@ -198,8 +198,8 @@ aside{
 	padding:2px;
 }
 
-#italy img{
-	padding:2px;
+#italy #minis{
+	width:45%;
 }
 
 }
